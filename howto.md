@@ -15,26 +15,26 @@
 3. Buatkan CRUD untuk table "article" : 
 
 - Migration : create_article_table : 
-		- [ ] id : int, auto-increment, primary key
-		- [ ] title : varchar (100), default value : NULL
-		- [ ] content : text, default value : NULL
-		- [ ] date : timestamps, default value : NULL
-		- [ ] created_at : timestamps, default value : NULL
-		- [ ] updated_at : timestamps, default value : NULL
-		- [ ] deleted_at : timestamps, default value : NULL
+	- [ ] id : int, auto-increment, primary key
+	- [ ] title : varchar (100), default value : NULL
+	- [ ] content : text, default value : NULL
+	- [ ] date : timestamps, default value : NULL
+	- [ ] created_at : timestamps, default value : NULL
+	- [ ] updated_at : timestamps, default value : NULL
+	- [ ] deleted_at : timestamps, default value : NULL
 
 - Model : Article
 	- Controller : Article
 	- View : 
 		- resource
 			- views
-				- article
-					[ ] index.blade.php {
+				- article : 
+					- [ ] index.blade.php {
 						no, title, date(28 April 2018 23:23), action (edit, detail, delete)
 					}
-					[ ] create.blade.php
-					[ ] edit.blade.php
-					[ ] show.blade.php
+					- [ ] create.blade.php
+					- [ ] edit.blade.php
+					- [ ] show.blade.php
 	- Routes 
 	- Soft Delete
 	- Validation : 
