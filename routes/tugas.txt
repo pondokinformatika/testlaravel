@@ -1,6 +1,7 @@
 TUGAS
 
 - Download Laravel dengan nama projectnya adalah "blog"
+- DB name "blog"
 - Buatkan CRUD untuk table "article" :
 	- Migration : create_article_table {
 		- id : int, auto-increment, primary key
@@ -18,14 +19,23 @@ TUGAS
 			views
 				article
 					index.blade.php {
-						no, title, date, action (edit, detail, delete)
+						no, title, date(28 April 2018 23:23), action (edit, detail, delete)
 					}
 					create.blade.php
 					edit.blade.php
 					show.blade.php
 	}
 	- Routes 
+	- Soft Delete
+	- Validation {
+		title : required, minimal 10 karakter,
+		content : required, 
+		date : required 
+	}
 - Push ke github
 	- .gitignore {
-		vendor
+		/public/css
+		/public/js
+		/vendor
+		.env
 	}
