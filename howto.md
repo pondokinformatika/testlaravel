@@ -15,13 +15,13 @@
 3. Buatkan CRUD untuk table "article" : 
 
 - Migration : create_article_table : 
-		- [] id : int, auto-increment, primary key
-		- [] title : varchar (100), default value : NULL
-		- [] content : text, default value : NULL
-		- [] date : timestamps, default value : NULL
-		- [] created_at : timestamps, default value : NULL
-		- [] updated_at : timestamps, default value : NULL
-		- [] deleted_at : timestamps, default value : NULL
+		- [ ] id : int, auto-increment, primary key
+		- [ ] title : varchar (100), default value : NULL
+		- [ ] content : text, default value : NULL
+		- [ ] date : timestamps, default value : NULL
+		- [ ] created_at : timestamps, default value : NULL
+		- [ ] updated_at : timestamps, default value : NULL
+		- [ ] deleted_at : timestamps, default value : NULL
 
 - Model : Article
 	- Controller : Article
@@ -29,18 +29,18 @@
 		- resource
 			- views
 				- article
-					[] index.blade.php {
+					[ ] index.blade.php {
 						no, title, date(28 April 2018 23:23), action (edit, detail, delete)
 					}
-					[] create.blade.php
-					[] edit.blade.php
-					[] show.blade.php
+					[ ] create.blade.php
+					[ ] edit.blade.php
+					[ ] show.blade.php
 	- Routes 
 	- Soft Delete
 	- Validation : 
-		- [] title : required, minimal 10 karakter,
-		- [] content : required, 
-		- [] date : required 
+		- [ ] title : required, minimal 10 karakter,
+		- [ ] content : required, 
+		- [ ] date : required 
 
 ## Petunjuk Pengumpulan Tugas :
 1. Push ke github dengan nama repository "laravel_satu".
