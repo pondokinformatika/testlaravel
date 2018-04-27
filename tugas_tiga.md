@@ -58,8 +58,8 @@
 		- Routes (route resource)
 		- Soft Delete
 		- Validation : 
-			- [x] first_name : required, minimal 20 karakter.
-			- [x] last_name : minimal 20 karakter.
+			- [x] first_name : required, maksimal 20 karakter.
+			- [x] last_name : maksimal 20 karakter.
 			- [x] email : required, sesuai dengan format penulisan email, tidak boleh sama dengan email yang ada di table mahasiswa.
 			- [x] password : required, minimal 8 karakter.
 			- [x] jenis_kelamin : required, 
